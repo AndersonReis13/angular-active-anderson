@@ -28,11 +28,13 @@
             "assets": [
               {
                 "glob": "**/*",
-                "input": "public"
+               "input": "src/assets",
+                "output": "/assets"
               }
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "src/styles/variables.scss"
             ],
             "scripts": []
           },
@@ -98,5 +100,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "782d2580-5e4a-472b-9873-e49a0f7ba5fd"
   }
 }
