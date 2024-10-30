@@ -1,0 +1,115 @@
+:host {
+  width: 100%;
+  display: flex;
+
+  .main-content {
+    height: 100vh;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .card-content {
+      height: 70vh;
+      width: 70%;
+
+      border-radius: 34px;
+
+      background: #070709;
+      box-shadow: 0px 4px 4px 0px #00000040;
+
+
+      display: flex;
+      align-items:center;
+      justify-content: space-between;
+
+
+      .text-content {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+
+        width: 50%;
+        height: 100%;
+
+
+
+        padding: 3rem;
+        h1 {
+          font-size: 60px;
+          color: #fff;
+          span {
+            font-size: 60px;
+            color: #c850c0;
+          }
+        }
+
+        .form-content {
+          display: flex;
+          flex-direction: column;
+
+          margin-bottom: 20px;
+          label {
+            color: #fff;
+            font-size: 20px;
+          }
+          input {
+            width: 340px;
+            height: 50px;
+            border-radius: 15px;
+            cursor: pointer;
+            outline: none;
+            padding: 10px 20px;
+            &:hover {
+              box-shadow: 0 6px 15px rgba(65, 88, 208, 0.6),
+                0 12px 25px rgba(200, 80, 192, 0.4),
+                0 18px 35px rgba(255, 204, 112, 0.3);
+              transform: translateY(-2px);
+            }
+          }
+        }a{
+          color: #9CA3AF;
+
+        }
+        button {
+          background: linear-gradient(
+            43deg,
+            #4158d0 0%,
+            #c850c0 46%,
+            #ffcc70 100%
+          );
+          cursor: pointer;
+          width: 331px;
+          height: 47px;
+
+          border: none;
+          border-radius: 10px;
+
+          font-size: 17px;
+          color: #fff;
+
+          margin-top: 20px;
+        }
+      }
+
+      .logo-content{
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        width: 50%;
+        height: 100%;
+
+        background-image: url("https://img.freepik.com/fotos-premium/uma-montanha-roxa-com-uma-montanha-roxa-ao-fundo_829136-333.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+
+
+
+      }
+    }
+  }
+}
